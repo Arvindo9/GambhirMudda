@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/lbl_your_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_comment" />
+
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:imeOptions="actionDone"
+        android:hint="@string/enter_name"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:imeOptions="actionDone"
+        android:hint="@string/enter_ph"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/comment_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:imeOptions="actionDone"
+        android:hint="@string/enter_comment_here"
+        android:inputType="textAutoCorrect" />
+
+    </LinearLayout>
+</RelativeLayout>

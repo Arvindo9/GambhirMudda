@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Gambhir Mudda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="latest">Latest updates</string>
+    <string name="by_price">sort by price</string>
+    <string name="by_name">sort by name</string>
+    <string name="by_author">sort by author</string>
+    <string name="author">Author : \u0020</string>
+    <string name="related">Related news</string>
+    <string name="comments">Comments</string>
+    <string name="comment_here">Click here to comment</string>
+    <string name="no_comments">no comments yet</string>
+    <string name="name">Name : </string>
+
+    <string name="comment_box">Comment box</string>
+    <string name="enter_comment">Enter your comment</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_ph">Phone number</string>
+    <string name="enter_comment_here">Your comment</string>
+
+    <string name="help">Help</string>
+    <string name="about">About Us</string>
+
+
+    <string name="email_jithvar">hello@jithvar.com</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="files">Files</string>
+    <string name="directories">Folders</string>
+    <string name="goUp">Go Up</string>
+    <string name="all">Check All</string>
+    <string name="cancel">Cancel</string>
+    <string name="none">Uncheck All</string>
+    <string name="ext">External</string>
+    <string name="Int">Internal</string>
+    <string name="New">New Folder</string>
+    <string name="CNew">Enter New Folder Name</string>
+    <string name="create">Create</string>
+    <string name="date">Date : \u0020\u0020\u0020\u0020</string>
+    <string name="time">Time : \u0020\u0020\u0020</string>
+
+    <string name="date_">Date : </string>
+    <string name="time_">Time : </string>
+
+    <string name="read_more">read more…</string>
+    <string name="comment">Comments : </string>
+    <string name="view">Views: \u0020</string>
+    <string name="like">Likes: \u0020</string>
+
+    <string name="download_it">download</string>
+    <string name="dash"> --- </string>
+    <string name="space">    </string>
+
+
+
+    <string name="s1">Gambhir Mudda</string>
+    <string name="s2">Gambhir Mudda is bilingual weekly news paper approved by Registrar of News
+        Paper of India.</string>
+    <string name="s3">Gambhir Mudda is published on every Monday and published
+        in Hindi and English.</string>
+    <string name="s3_1">Gambhir Mudda has it\'s head office in Lucknow</string>
+    <string name="s4">Powered by</string>
+    <string name="s5">Jithvar</string>
+    <string name="s6">Cancel</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <string name="loding">Loading...</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="try_again">Try again</string>
+    <string name="file_downloaded">File downloaded</string>
+    <string name="error">Error</string>
+    <string name="read_news">Read news</string>
+    <string name="gmabhir_email">contactus@gambhirmudda</string>
+</resources>

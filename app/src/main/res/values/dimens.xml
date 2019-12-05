@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+
+    <dimen name="activity_horizontal_margin_l">20dp</dimen>
+    <dimen name="activity_vertical_margin_l">20dp</dimen>
+    <dimen name="fab_margin_l">20dp</dimen>
+    <dimen name="nav_header_vertical_spacing_l">20dp</dimen>
+    <dimen name="nav_header_height_l">280dp</dimen>
+
+    <dimen name="msg_header">16sp</dimen>
+
+    <dimen name="home_post_n">50sp</dimen>
+    <dimen name="home_card_tv">25sp</dimen>
+    <dimen name="home_h_title">10sp</dimen>
+    <dimen name="home_h_footer">6sp</dimen>
+    <dimen name="home_card_margin_t">30dp</dimen>
+    <dimen name="home_h_height_pic">120dp</dimen>
+
+
+    <dimen name="txt_20">20sp</dimen>
+    <dimen name="txt_25">25sp</dimen>
+    <dimen name="txt_30">30sp</dimen>
+    <dimen name="txt_22">22sp</dimen>
+
+
+    <dimen name="txt_32">32sp</dimen>
+    <dimen name="txt_35">35sp</dimen>
+    <dimen name="txt_45">45sp</dimen>
+    <dimen name="txt_40">40sp</dimen>
+</resources>

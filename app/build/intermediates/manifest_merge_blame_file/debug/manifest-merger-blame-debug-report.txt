@@ -1,0 +1,410 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jithvar.gambhirmudda"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:5:5-78
+11-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:22:5-67
+15-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:22:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:22:5-81
+16-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:22:22-79
+17
+18    <permission
+18-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:24:5-109
+19        android:name="com.jithvar.gambhirmudda.permission.C2D_MESSAGE"
+19-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:24:17-71
+20        android:protectionLevel="signature" />
+20-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:24:72-107
+21
+22    <uses-permission android:name="com.jithvar.gambhirmudda.permission.C2D_MESSAGE" />
+22-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:26:5-78
+22-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:26:22-76
+23
+24    <application
+24-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:10:5-117:19
+25        android:allowBackup="true"
+25-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:11:9-35
+26        android:debuggable="true"
+27        android:fullBackupContent="true"
+27-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:17:9-41
+28        android:icon="@mipmap/ic"
+28-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:12:9-34
+29        android:label="@string/app_name"
+29-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:15:9-35
+32        android:theme="@style/AppTheme" >
+32-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:16:9-40
+33        <meta-data
+33-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:19:9-21:52
+34            android:name="com.google.firebase.messaging.default_notification_icon"
+34-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:20:13-83
+35            android:resource="@drawable/gambhir" />
+35-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:21:13-49
+36        <!--
+37             Set color used with incoming notification messages. This is used when no color is set for the incoming
+38             notification message. See README(https://goo.gl/6BKBk7) for more.
+39        -->
+40        <meta-data
+40-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:24:9-26:53
+41            android:name="com.google.firebase.messaging.default_notification_color"
+41-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:25:13-84
+42            android:resource="@color/colorAccent" />
+42-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:26:13-50
+43        <!-- [END fcm_default_icon] -->
+44        <!-- [START fcm_default_channel] -->
+45        <meta-data
+45-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:29:9-31:70
+46            android:name="com.google.firebase.messaging.default_notification_channel_id"
+46-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:30:13-89
+47            android:value="@string/default_notification_channel_id" />
+47-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:31:13-68
+48        <!-- [END fcm_default_channel] -->
+49
+50        <activity
+50-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:34:9-66:20
+51            android:name="com.jithvar.gambhirmudda.StartActivity"
+51-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:34:19-48
+52            android:exported="true"
+52-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:36:19-42
+53            android:launchMode="singleTop" >
+53-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:35:19-49
+54            <intent-filter>
+54-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:37:13-41:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:38:17-69
+55-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:38:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:40:17-77
+57-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:40:27-74
+58            </intent-filter>
+59            <intent-filter
+59-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:44:13-56:29
+60                android:autoVerify="true"
+60-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:45:28-53
+61                android:label="@string/app_name" >
+61-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:44:28-60
+62                <action android:name="android.intent.action.VIEW" />
+62-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:47:17-69
+62-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:47:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:49:17-76
+64-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:49:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:50:17-78
+65-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:50:27-75
+66                <!-- Accepts URIs that begin with "https://www.example.com/articles/" -->
+67                <data
+67-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:52:17-54:23
+68                    android:host="gambhirmudda.com"
+68-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:53:23-54
+69                    android:scheme="https" />
+69-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:52:23-45
+70                <!-- android:pathPrefix="/articles/" -->
+71            </intent-filter>
+72            <intent-filter>
+72-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:58:13-64:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:47:17-69
+73-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:47:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:49:17-76
+75-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:49:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:50:17-78
+76-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:50:27-75
+77
+78                <data android:scheme="mystickers" />
+78-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:52:17-54:23
+78-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:52:23-45
+79                <data android:host="sticker" />
+79-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:52:17-54:23
+79-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:53:23-54
+80            </intent-filter>
+81        </activity>
+82        <activity android:name="com.jithvar.gambhirmudda.DrawableActivity" >
+82-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:68:9-64
+82-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:68:19-51
+83        </activity>
+84        <activity android:name="com.jithvar.gambhirmudda.TabActivity" >
+84-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:70:9-71:20
+84-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:70:19-46
+85        </activity>
+86        <activity android:name="com.jithvar.gambhirmudda.ReadNews" >
+86-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:72:9-56
+86-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:72:19-43
+87        </activity>
+88        <activity android:name="com.jithvar.gambhirmudda.Help" >
+88-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:73:9-52
+88-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:73:19-39
+89        </activity>
+90        <activity android:name="com.jithvar.gambhirmudda.AboutUs" >
+90-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:74:9-55
+90-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:74:19-42
+91        </activity>
+92
+93        <!-- [START firebase_service] -->
+94        <service android:name="com.jithvar.gambhirmudda.firebase.MyFirebaseMessagingService" >
+94-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:79:9-85:19
+94-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:80:13-64
+95            <intent-filter>
+95-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:82:13-84:29
+96                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+96-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:83:17-77
+96-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:83:25-75
+97            </intent-filter>
+98        </service>
+99        <!-- [END firebase_service] -->
+100        <!-- [START firebase_iid_service] -->
+101        <service android:name="com.jithvar.gambhirmudda.firebase.MyFirebaseInstanceIDService" >
+101-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:88:9-93:19
+101-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:89:13-65
+102            <intent-filter>
+102-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:90:13-92:29
+103                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+103-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:91:17-79
+103-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:91:25-77
+104            </intent-filter>
+105        </service>
+106        <!-- [END firebase_iid_service] -->
+107        <service
+107-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:95:9-100:19
+108            android:name="com.jithvar.gambhirmudda.firebase.MyJobService"
+108-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:95:18-55
+109            android:exported="false" >
+109-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:96:13-37
+110            <intent-filter>
+110-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:97:13-99:29
+111                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+111-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:98:17-83
+111-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:98:25-81
+112            </intent-filter>
+113        </service>
+114        <service
+114-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:102:9-108:19
+115            android:name="firebase.AppIndexingService"
+115-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:102:18-60
+116            android:exported="true"
+116-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:103:18-41
+117            android:permission="com.google.android.gms.permission.APPINDEXING" >
+117-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:104:18-84
+118            <intent-filter>
+118-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:105:13-107:29
+119                <action android:name="com.google.firebase.appindexing.UPDATE_INDEX" />
+119-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:106:17-87
+119-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:106:25-84
+120            </intent-filter>
+121        </service>
+122
+123        <provider
+123-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:110:9-115:20
+124            android:name="com.jithvar.gambhirmudda.service.StickerProvider"
+124-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:111:13-76
+125            android:authorities="com.jithvar.gambhirmudda.service.StickerProvider"
+125-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:112:13-83
+126            android:exported="true"
+126-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:113:13-36
+127            android:grantUriPermissions="true" >
+127-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:114:13-47
+128        </provider>
+129
+130        <meta-data
+130-->[com.android.support:design:26.0.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\00d38bf07fd0adf5c3d2a53d583c2d2e\design-26.0.2\AndroidManifest.xml:26:9-28:38
+131            android:name="android.support.VERSION"
+131-->[com.android.support:design:26.0.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\00d38bf07fd0adf5c3d2a53d583c2d2e\design-26.0.2\AndroidManifest.xml:27:13-51
+132            android:value="26.0.2" />
+132-->[com.android.support:design:26.0.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\00d38bf07fd0adf5c3d2a53d583c2d2e\design-26.0.2\AndroidManifest.xml:28:13-35
+133        <!--
+134 FirebaseMessagingService performs security checks at runtime,
+135             no need for explicit permissions despite exported="true"
+136        -->
+137        <service
+137-->[com.google.firebase:firebase-messaging:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\d86d4f28208c5fe90e0066ceb248c9cb\firebase-messaging-11.4.2\AndroidManifest.xml:23:9-27:19
+138            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+138-->[com.google.firebase:firebase-messaging:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\d86d4f28208c5fe90e0066ceb248c9cb\firebase-messaging-11.4.2\AndroidManifest.xml:23:18-87
+139            android:exported="true" >
+139-->[com.google.firebase:firebase-messaging:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\d86d4f28208c5fe90e0066ceb248c9cb\firebase-messaging-11.4.2\AndroidManifest.xml:23:88-111
+140            <intent-filter android:priority="-500" >
+140-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:82:13-84:29
+141                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+141-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:83:17-77
+141-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:83:25-75
+142            </intent-filter>
+143        </service>
+144        <!--
+145             Receives GooglePlay execution requests and forwards them to the
+146             appropriate internal service.
+147        -->
+148        <service
+148-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:32:9-39:19
+149            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+149-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:33:13-73
+150            android:exported="true"
+150-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:34:13-36
+151            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+151-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:35:13-93
+152            <intent-filter>
+152-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:36:13-38:29
+153                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+153-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:37:17-87
+153-->[com.firebase:firebase-jobdispatcher:0.6.0] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\313bb7999f6ee4d842d85aa7712eda15\firebase-jobdispatcher-0.6.0\AndroidManifest.xml:37:25-84
+154            </intent-filter>
+155        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+156        <activity
+156-->[com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ddd4347307a5d842a2c5dabc25fba074\play-services-ads-lite-11.4.2\AndroidManifest.xml:25:9-257
+157            android:name="com.google.android.gms.ads.AdActivity"
+157-->[com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ddd4347307a5d842a2c5dabc25fba074\play-services-ads-lite-11.4.2\AndroidManifest.xml:25:19-71
+158            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+158-->[com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ddd4347307a5d842a2c5dabc25fba074\play-services-ads-lite-11.4.2\AndroidManifest.xml:25:72-181
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ddd4347307a5d842a2c5dabc25fba074\play-services-ads-lite-11.4.2\AndroidManifest.xml:25:231-255
+160            android:theme="@android:style/Theme.Translucent" />
+160-->[com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ddd4347307a5d842a2c5dabc25fba074\play-services-ads-lite-11.4.2\AndroidManifest.xml:25:182-230
+161
+162        <receiver
+162-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:25:7-26:18
+163            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+163-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:25:17-89
+164            android:enabled="true"
+164-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:25:90-112
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:25:113-137
+166        </receiver>
+167        <receiver
+167-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:27:7-31:18
+168            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+168-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:27:17-104
+169            android:enabled="true"
+169-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:27:162-184
+170            android:exported="true"
+170-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:27:185-208
+171            android:permission="android.permission.INSTALL_PACKAGES" >
+171-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:27:105-161
+172            <intent-filter>
+172-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:28:11-30:27
+173                <action android:name="com.android.vending.INSTALL_REFERRER" />
+173-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:29:15-76
+173-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:29:23-74
+174            </intent-filter>
+175        </receiver>
+176
+177        <service
+177-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:32:7-137
+178            android:name="com.google.android.gms.measurement.AppMeasurementService"
+178-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:32:16-87
+179            android:enabled="true"
+179-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:32:88-110
+180            android:exported="false" />
+180-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:32:111-135
+181        <service
+181-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:33:7-197
+182            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+182-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:33:16-90
+183            android:enabled="true"
+183-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:33:148-170
+184            android:exported="false"
+184-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:33:171-195
+185            android:permission="android.permission.BIND_JOB_SERVICE" />
+185-->[com.google.firebase:firebase-analytics:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\dec48db91d1cfc2232afdf0db8fadc99\firebase-analytics-11.4.2\AndroidManifest.xml:33:91-147
+186
+187        <receiver
+187-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:30:9-35:20
+188            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+188-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:30:19-84
+189            android:exported="true"
+189-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:30:85-108
+190            android:permission="com.google.android.c2dm.permission.SEND" >
+190-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:30:109-169
+191            <intent-filter>
+191-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:31:13-34:29
+192                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+192-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:32:17-80
+192-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:32:25-78
+193
+194                <category android:name="com.jithvar.gambhirmudda" />
+194-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:33:17-60
+194-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:33:27-58
+195            </intent-filter>
+196        </receiver>
+197        <!--
+198 Internal (not exported) receiver used by the app to start its own exported services
+199             without risk of being spoofed.
+200        -->
+201        <receiver
+201-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:39:9-119
+202            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+202-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:39:19-92
+203            android:exported="false" />
+203-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:39:93-117
+204        <!--
+205 FirebaseInstanceIdService performs security checks at runtime,
+206             no need for explicit permissions despite exported="true"
+207        -->
+208        <service
+208-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:43:9-47:19
+209            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+209-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:43:18-82
+210            android:exported="true" >
+210-->[com.google.firebase:firebase-iid:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ac2fd763ccef70f7a37c87c7625a64a7\firebase-iid-11.4.2\AndroidManifest.xml:43:83-106
+211            <intent-filter android:priority="-500" >
+211-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:90:13-92:29
+212                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+212-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:91:17-79
+212-->D:\Computer\android\Jithvar\gambhirmudda\GambhirMudda\app\src\main\AndroidManifest.xml:91:25-77
+213            </intent-filter>
+214        </service>
+215
+216        <provider
+216-->[com.google.firebase:firebase-common:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ba91b34180a51da14782f6554cc0febc\firebase-common-11.4.2\AndroidManifest.xml:6:9-194
+217            android:name="com.google.firebase.provider.FirebaseInitProvider"
+217-->[com.google.firebase:firebase-common:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ba91b34180a51da14782f6554cc0febc\firebase-common-11.4.2\AndroidManifest.xml:6:79-143
+218            android:authorities="com.jithvar.gambhirmudda.firebaseinitprovider"
+218-->[com.google.firebase:firebase-common:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ba91b34180a51da14782f6554cc0febc\firebase-common-11.4.2\AndroidManifest.xml:6:19-78
+219            android:exported="false"
+219-->[com.google.firebase:firebase-common:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ba91b34180a51da14782f6554cc0febc\firebase-common-11.4.2\AndroidManifest.xml:6:144-168
+220            android:initOrder="100" />
+220-->[com.google.firebase:firebase-common:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\ba91b34180a51da14782f6554cc0febc\firebase-common-11.4.2\AndroidManifest.xml:6:169-192
+221
+222        <activity
+222-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\e04b63c1600855d5033380e4cc34c997\play-services-base-11.4.2\AndroidManifest.xml:19:9-172
+223            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+223-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\e04b63c1600855d5033380e4cc34c997\play-services-base-11.4.2\AndroidManifest.xml:19:19-85
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\e04b63c1600855d5033380e4cc34c997\play-services-base-11.4.2\AndroidManifest.xml:19:146-170
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\e04b63c1600855d5033380e4cc34c997\play-services-base-11.4.2\AndroidManifest.xml:19:86-145
+226
+227        <meta-data
+227-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\0f80ed2a8f0bf56f47eab987449fc263\play-services-basement-11.4.2\AndroidManifest.xml:20:9-121
+228            android:name="com.google.android.gms.version"
+228-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\0f80ed2a8f0bf56f47eab987449fc263\play-services-basement-11.4.2\AndroidManifest.xml:20:20-65
+229            android:value="@integer/google_play_services_version" />
+229-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\KinG\.gradle\caches\transforms-2\files-2.1\0f80ed2a8f0bf56f47eab987449fc263\play-services-basement-11.4.2\AndroidManifest.xml:20:66-119
+230    </application>
+231
+232</manifest>
